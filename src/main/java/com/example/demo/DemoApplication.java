@@ -16,5 +16,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+	public Integer addition(int i, int j) {
+		return i+j;
+	}
 
 }
